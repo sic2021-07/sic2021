@@ -1,0 +1,71 @@
+@import 'ress', 'var', 'common', 'header';
+.diary{
+    height: 100%;
+    margin-top: 100px;
+    &__year-month{
+        width: 100vw;
+        line-height: 40px;
+        background-color: #FCCD74;
+        padding-left: 16px;
+        color: #fff;
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+    }
+    &__wrap{
+        &__content{
+            display: flex;
+            align-items: center;
+            background-color: $bgColor;
+            text-decoration: none;
+            margin: 0 16px 24px;
+            padding: 16px 0;
+            border-radius: 10px;
+            &__daybox{
+                color: #FCCD74;
+                text-align: center;
+                padding: 0 40px;
+                &__dayofweek{
+                    font-size: 1.2rem;
+                }
+                &__day{
+                    font-size: 3rem;
+                }
+            }
+            &__contentbox{
+                color: $textColor;
+                &__ttl{
+                    width: 250px;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+                &__content{
+                    font-size: 1.4rem;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+    &__link{
+        width: 300px;
+        line-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #A9E87A;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 25px;
+        box-shadow: 0 1px 5px #00000026;
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        &__img{
+            margin-right: 8px;
+        }
+    }
+}
