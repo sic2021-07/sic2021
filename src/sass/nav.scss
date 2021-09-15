@@ -1,0 +1,67 @@
+@import 'ress';
+.nav {
+width: 100vw;
+height: 95px;
+background-color: #fccd74;
+position: fixed;
+bottom: 0;
+z-index: 1;
+    .Camera {
+    position: relative;
+    bottom: 60px;
+    width: 120px;
+    height: 120px;
+    background-color: #fccd74;
+    border-radius: 50%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .Camera-2 {
+        height: 80px;
+        width: 80px;
+        background-color: #fff;
+        border-radius: 50%;
+        &__link{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__heading{
+            padding-top: 18px;
+            font-size: 12px;
+        }
+        }
+        }
+        &__Wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+        a {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            justify-content: center;
+            font-size: 10px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        span {
+        text-align: center;
+        display: block;
+        font-size: 10px;
+        color: #fff;
+        }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    font-family:"ヒラギノ丸ゴ Std",serif;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    width:382px;
+    margin:0 auto;
+}
+
+.batu{
+    width:16px;
+    height: 16px;
+    margin-top:100px;
+}
+
+h2{
+    font-size:16px;
+    color:#3C2A17;
+    margin:100px auto 0;
+}
+
+.icon{
+    margin-top:134px;
+    text-align: center;
+}
+
+li{
+    margin:52px 0;
+}
+
+#name{
+    width: 326px;
+    margin:0 auto;
+}
+
+.namebox{
+    width:261px;
+    height:34px;
+}
+
+.heading{
+    display: inline-block;
+    width: 50px;
+    font-size:16px;
+    color:#3C2A17;
+    text-align: right;
+}
+.year-heading{
+    display: inline-block;
+    width: 65px;
+    font-size:16px;
+    color:#3C2A17;
+    text-align: right;
+}
+
+#age{
+    width: 326px;
+    margin:0 auto;
+}
+
+.agebox{
+    width:60px;
+    height:34px;
+}
+
+#year{
+    width:350px;
+    margin:0 auto;
+}
+
+.yearbox{
+    width:50px;
+    height: 34px;
+}
+
+.monthbox{
+    width:50px;
+    height: 34px;
+}
+
+.daybox{
+    width:50px;
+    height: 34px;
+}
+
+input[type="text"]{
+    background-color:#F4F4F4;
+    border:none;
+    box-shadow:0px 1px 1px #000;
+}
+
+.register{
+    display: block;
+    font-size:16px;
+    color: #fff;
+    width:300px;
+    height:48px;
+    border-radius: 30px;
+    background-color: #A9E87A;
+    margin:64px auto 25px;
+    text-align:center;
+    line-height:48px;
+    text-decoration: none;
+    box-shadow: 0 0 3px #666;
+}
+
+

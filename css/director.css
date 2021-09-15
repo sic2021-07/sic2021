@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    font-family: "ヒラギノ丸ゴ Std",serif;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    width:382px;
+    margin:0 auto;
+}
+
+.batu{
+    width:16px;
+    height: 16px;
+    margin-top:100px;
+}
+
+h2{
+    font-size:16px;
+    color:#3C2A17;
+    margin:100px auto 0;
+}
+
+.you{
+    font-size:16px;
+    color:#3C2A17;
+    text-align:center;
+    margin-top: 48px;
+}
+
+#directoricon{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.papa{
+    margin:0 30px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/childprofile.css" rel="stylesheet">
+  <title>子供プロフィール</title>
+</head>
+<body>
+  <div id="header">
+    <a href="profile.html" class="batu"><img src="img/batu.png" alt="バツマーク"></a>
+    <h2>子供のプロフィール</h2>
+  </div>
+  <p class="gender">性別</p>
+  <div id="childicon">
+      <a href="#"><img src="img/boy.png" alt="男の子のアイコン" class="boy"></a>
+      <a href="#"><img src="img/girl.png" alt="女の子のアイコン" class="girl"></a>
+  </div>
+  <form action="//www-creators.com/rsc/receiver.php" method="POST">
+    <ul>
+      <li>
+        <div id="name">
+          <label class="heading">お名前</label>
+          <input type="text" name="name" class="namebox" placeholder="名前を入力してください" value="">
+        </div>
+      </li>
+      <li>
+        <div id="age">
+          <label class="heading">年齢</label>
+          <input type="text" name="age" class="agebox" value="">
+        </div>
+      </li>
+      <li>
+        <div id="year">
+          <label class="year-heading">生年月日</label>
+          <label>20</label>
+          <input type="text" maxlength="2" name="year" class="yearbox"> /
+          <input type="text" maxlength="2" name="month" class="monthbox"> /
+          <input type="text" maxlength="2" name="day" class="daybox"> 
+        </div>
+      </li>
+</ul>
+  </form>
+  <a href="#" class="register"><p>登録する</p></a>
+</body>
+</html>

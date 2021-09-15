@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    font-family:"ヒラギノ丸ゴ Std",serif;
+}
+
+.mainimg{
+    width:414px;
+    height:280px;
+    object-fit: cover;
+    margin:0 auto;
+} 
+a.start{
+    display: block;
+    font-size:16px;
+    color: #fff;
+    width:300px;
+    height:48px;
+    border-radius: 30px;
+    background-color: #A9E87A;
+    margin:168px auto 25px;
+    text-align:center;
+    line-height:48px;
+    text-decoration: none;
+    box-shadow: 0 0 3px #666;
+}
+
+.takeover{
+    display: block;
+    font-size: 16px;
+    color: #A9E87A;
+    width: 300px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin:0 auto;
+    text-align:center;
+    line-height:48px;
+    text-decoration: none;
+    box-shadow: 0 0 3px #666;
+}
+
+.caution{
+    font-size:14px;
+    color:#707070;
+    width:300px;
+    margin:81px auto 124px;
+}
+
+.em{
+    color:#A9E87A;
+}
