@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 10px;
+  height: 100px;
+  width: 100vw;
+}
+
+.header h1 {
+  font-size: 16px;
+  flex-grow: 1.2;
+}
+
+.header i {
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+.img_Wrap {
+  display: flex;
+  flex-wrap: wrap;
+  height: 140px;
+  width: 100vw;
+}
+
+.img_Wrap img {
+  width: 50%;
+  border: solid #707070 1px;
+}
