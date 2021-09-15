@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記録</title>
+    <link rel="stylesheet" href="css/recode.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__wrap">
+        <a href="#" class="header__wrap__link">
+            <img src="img/cross.svg" alt="ばつマーク">
+        </a>
+        <h1 class="header__wrap__heading">記録する</h1>
+    </div>
+</header> 
+<main class="recode">
+    <div class="recode__date">
+        <a href="#" class="recode__date__link">
+            <img src="img/left-arrow.svg" alt="">
+        </a>
+        <p class="recode__date__ccontent">2021年9月9日(木)</p>
+        <a href="#" class="recode__date__link">
+            <img src="img/right-arrow.svg" alt="">
+        </a>
+    </div>
+    <h2 class="recode__title">
+        <img src="img/pen-black.svg" alt="">
+        今日の日記を入れる
+    </h2>
+    <form action="#" method="post" class="recode__form">
+        <div class="recode__form__titlebox">
+            <label class="recode__form__titlebox__heading">タイトル</label>
+            <input type="text" class="recode__form__titlebox__title">
+        </div>
+        <div class="recode__form__contentbox">
+            <label class="recode__form__contentbox__heading">内容</label>
+            <textarea name="content" id="" cols="30" rows="10" class="recode__form__contentbox__text"></textarea>
+        </div>
+        <div class="recode__form__condition">
+            <p class="recode__form__condition__heading">今日の〇〇</p>
+            <div class="recode__form__condition__box">
+                <div class="recode__form__condition__box__content">
+                    <p class="recode__form__condition__box__content__heading">体重</p>
+                    <input type="text" class="recode__form__condition__box__content__content">
+                    <p class="recode__form__condition__box__content__unit">Kg</p>
+                </div>
+                <div class="recode__form__condition__box__content">
+                    <p class="recode__form__condition__box__content__heading">体温</p>
+                    <input type="text" class="recode__form__condition__box__content__content">
+                    <p class="recode__form__condition__box__content__unit">℃</p>
+                </div>
+            </div>
+        </div>
+    </form>
+    <a href="#" class="recode__button">保存する</a>
+</main>
+</body>
+</html>

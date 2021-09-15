@@ -1,0 +1,107 @@
+@import 'ress', 'var', 'common', 'header';
+.recode{
+    height: 100%;
+    margin-top: 100px;
+    &__date{
+        height: 40px;
+        color: $textColor;
+        font-size: 1.4rem;
+        text-align: center;
+        border-bottom: solid 1px #C5CBBF;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__title{
+        color: $textColor;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__form{
+        margin: 0 16px;
+        padding: 40px 0 70px;
+        background-color: $bgColor;
+        &__titlebox{
+            display: flex;
+            flex-direction: column;
+            &__heading{
+                color: $textColor;
+                font-size: 1.4rem;
+                margin-bottom: 16px;
+            }
+            &__title{
+                width: 355px;
+                height: 45px;
+                background-color: #fff;
+                border-radius: 10px;
+                font-size: 1.6rem;
+            }
+        }
+        &__contentbox{
+            display: flex;
+            flex-direction: column;
+            margin-top: 24px;
+            &__heading{
+                color: $textColor;
+                font-size: 1.4rem;
+                margin-bottom: 16px;
+            }
+            &__text{
+                width: 355px;
+                height: 160px;
+                background-color: #fff;
+                border-radius: 10px;
+                font-size: 1.6rem;
+            }
+        }
+        &__condition{
+            margin-top: 24px;
+            &__heading{
+                color: $textColor;
+                font-size: 1.4rem;
+                margin-bottom: 16px;
+            }
+            &__box{
+                display: flex;
+                justify-content: space-around;
+                &__content{
+                   width: 150px;
+                   line-height: 45px; 
+                   display: flex;
+                   justify-content: space-around;
+                   background-color: #fff;
+                   border-radius: 10px;
+                   &__heading{
+                       color: $textColor;
+                       font-size: 1.4rem;
+                   }
+                   &__content{
+                       width: 70px;
+                       color: $textColor;
+                       font-size: 1.4rem;
+                       text-align: right;
+                   }
+                   &__unit{
+                        color: $textColor;
+                        font-size: 1.4rem;
+                   }
+                }
+            }
+        }
+    }
+    &__button{
+        display: block;
+        width: 300px;
+        line-height: 48px;
+        margin: 44px auto 0;
+        background-color: #A9E87A;
+        border-radius: 25px;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+    }
+}
